@@ -1,0 +1,421 @@
+section .container-fluid {
+    padding-left: 0; !important;
+    padding-right: 0; !important;
+}
+
+.row {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+header {
+    background-image: url("../img/header-bg.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+header .intro-text {
+    padding-top: 10%;
+    padding-bottom: 20%;
+}
+
+header .intro-text .intro-heading {
+    font-family: "Lato", "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+header .intro-text .intro-slogan {
+    font-family: "Lato", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+header .intro-lable {
+    content: url("../img/header/header-lable.png");
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20%;
+}
+
+header .intro-mouse {
+    content: url("../img/header/header-mouse.png");
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+div.container fieldset {
+    border: 2px solid black;
+}
+
+section.about fieldset:hover,  section.whatwedo fieldset:hover, section.contactus fieldset:hover {
+    border-color: skyblue;
+}
+
+section.services fieldset:hover {
+    border-color: #ce8483;
+}
+
+section.services {
+    background-image: url("../img/services/services-bg.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+}
+
+section.services fieldset {
+    border: 2px solid white;
+}
+
+section.services .fieldset-text {
+    color: white;
+}
+
+section.services fieldset legend {
+    color: white;
+}
+
+.fieldset-text {
+    font-family: "Lato", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    padding: 1% 5% 1%;
+    text-align: justify;
+}
+
+.fieldset-text p {
+    padding-bottom: 5%;
+}
+
+fieldset legend {
+    width: 40%;
+    border-bottom: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+@media (min-width: 768px) {
+    .fieldset-text {
+        padding: 3% 20% 1%;
+        text-align: center;
+        line-height: 170%;
+    }
+
+    fieldset legend {
+        width:30%;
+        border-bottom: none;
+        font-family: "Lato", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 30px;
+        letter-spacing: 5px;
+    }
+}
+
+fieldset .label-img {
+    padding-bottom: 5%;
+    padding-top: 10%;
+}
+
+fieldset .label-design {
+    content: url("../img/whatwedo/design.png");
+    margin: auto;
+}
+
+fieldset .label-development {
+    content: url("../img/whatwedo/development.png");
+    margin: auto;
+}
+
+fieldset .label-management {
+    content: url("../img/whatwedo/management.png");
+    margin: auto;
+}
+
+.fieldset-text h3 {
+    border-bottom: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .fieldset-text h3 {
+        border-bottom: none;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 22px;
+        letter-spacing: 2px;
+        padding-bottom: 5%;
+    }
+}
+
+.tile-img {
+    background-repeat: no-repeat;
+    padding: 0 !important;
+    color: white;
+    border: 2px solid white;
+}
+
+.topworkz {
+     background-image: url("../img/ourworks/topworkz.png");
+ }
+
+.joint {
+    background-image: url("../img/ourworks/joint.png");
+}
+
+.market {
+    background-image: url("../img/ourworks/market.png");
+}
+
+.worktop {
+    background-image: url("../img/ourworks/worktop.png");
+}
+
+.lable {
+    background-image: url("../img/ourworks/lable.png");
+}
+
+.kyiv {
+    background-image: url("../img/ourworks/kyiv.png");
+}
+
+section.ourWorks h2 {
+    border-bottom: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: left;
+    padding: 20% 10% 5%;
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+    section.ourWorks h2 {
+        border-bottom: none;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 32px;
+        letter-spacing: 3px;
+        padding: 20% 10% 5%;
+        margin: 0;
+    }
+}
+
+.btn-custom {
+    display: block;
+    height: 50px;
+    width: 60%;
+    background: black;
+    border: 0;
+    font-family: "Lato", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 2px;
+    outline: 0;
+}
+
+.btn-custom:hover {
+    background: white;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    outline: 0;
+}
+
+.btn-custom:active {
+    background: black;
+    color: white;
+    outline: 0;
+}
+
+footer {
+    text-align: center;
+}
+
+footer .footer-lable {
+    content: url("../img/footer/lable-black.png");
+    display: inline;
+    margin-right: 5%;
+}
+
+
+/* Animation */
+
+.hovereffect {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+    background: skyblue;
+}
+
+.hovereffect .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    padding: 50px 20px;
+}
+
+.hovereffect img {
+    display: block;
+    position: relative;
+    max-width: none;
+    width: calc(100% + 20px);
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(-10px,0,0);
+    transform: translate3d(-10px,0,0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    height: 150px;
+}
+
+@media (min-width: 768px) {
+    .hovereffect img {
+        display: block;
+        position: relative;
+        max-width: none;
+        width: calc(100% + 20px);
+        -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+        transition: opacity 0.35s, transform 0.35s;
+        -webkit-transform: translate3d(-10px, 0, 0);
+        transform: translate3d(-10px, 0, 0);
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        height: 200px;
+    }
+}
+
+.hovereffect:hover img {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+
+.hovereffect h1 {
+        text-transform: uppercase;
+        color: #fff;
+        text-align: left;
+        position: relative;
+        font-size: 18px;
+        overflow: hidden;
+        padding: 0.5em 0;
+        background-color: transparent;
+        font-family: "Lato", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        letter-spacing: 1px;
+        font-weight: bold;
+}
+
+
+
+.hovereffect h1:after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 5px;
+        background: #fff;
+        content: '';
+        -webkit-transition: -webkit-transform 0.35s;
+        transition: transform 0.35s;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+}
+
+.hovereffect:hover h1:after {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+}
+
+@media (min-width: 768px) {
+    .hovereffect h1 {
+        text-transform: uppercase;
+        color: #fff;
+        text-align: left;
+        position: relative;
+        font-size: 32px;
+        overflow: hidden;
+        padding: 0.5em 0;
+        background-color: transparent;
+        font-family: "Lato", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        letter-spacing: 3px;
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 768px) {
+    .hovereffect h1:after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 5px;
+        background: #fff;
+        content: '';
+        -webkit-transition: -webkit-transform 0.35s;
+        transition: transform 0.35s;
+        -webkit-transform: translate3d(-150%, 0, 0);
+        transform: translate3d(-150%, 0, 0);
+    }
+}
+
+@media (min-width: 768px) {
+    .hovereffect:hover h1:after {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.hovereffect:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
